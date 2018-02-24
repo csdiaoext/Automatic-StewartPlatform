@@ -15,32 +15,33 @@
 #define INVERSE_SERVO_3 4
 
 /* Multiplier used to convert radian to pulses in us */
-#define SERVO_MULT ( 400.0/(PI/4.0))
+#define SERVO_MULT (400.0/(PI/4.0))
 
 /* The max e min range of Servos in radians */
-#define SERVO_MIN degToRad(-80)
-#define SERVO_MAX degToRad(80)
+#define SERVO_MIN degToRad(-60)
+#define SERVO_MAX degToRad(60)
 
 /* Here you should put Your Platform Values in millimeters */
 /* Here you put the length of your servos arm . */
-#define LENGTH_SERVO_ARM 15
+#define LENGTH_SERVO_ARM 25
 /* Here you put the length of your rods length. */
-#define LENGTH_SERVO_LEG 120
+#define LENGTH_SERVO_LEG 60
 /* Here you put the default Heigh of your platform. 
  * This value should be close to yours rods length.
 */
-#define PLATFORM_HEIGHT_DEFAULT 115
+#define PLATFORM_HEIGHT_DEFAULT 60
 /* Here you put the radius of the top of your platform. */
-#define PLATFORM_TOP_RADIUS 45.5
+#define PLATFORM_TOP_RADIUS 60
 /* Here you put the radius of the base of your platform. */
-#define PLATFORM_BASE_RADIUS 67.5
+#define PLATFORM_BASE_RADIUS 55
 /* Here you put the angle between two servos axis points */
-#define THETA_P_ANGLE degToRad(67)
+#define THETA_P_ANGLE degToRad(20)
 /* Here you put the angle between two platform attachment points */
-#define THETA_R_ANGLE degToRad(12)
+#define THETA_R_ANGLE degToRad(20)
 /* Here you dont need to change*/
 #define THETA_ANGLE ((PI/3.0 - THETA_P_ANGLE) / 2.0)
 /* Here you put the pulses of each of yours servos respective to their position in horizontal */
-#define SERVO_ZERO_POSITION 1550, 1450, 1350, 1600, 1500, 1600
+#define SERVO_ZERO_POSITION 1600, 1200, 1500, 1700, 1400, 1700
 /* Here you put the rotation of servo arms in respect to axis X */
-#define BETA_ANGLES PI / 2, -PI / 2, -PI / 6, 5 * PI / 6, -5 * PI / 6, PI / 6
+#define BETA_ANGLES 5 * PI / 6, PI / 2, PI / 6, -PI / 6, -PI / 2, -5 * PI / 6
+//#define BETA_ANGLES -PI / 2, -5 * PI / 6, 5 * PI / 6, PI / 2, PI / 6, -PI / 6

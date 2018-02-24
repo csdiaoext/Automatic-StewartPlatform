@@ -18,7 +18,7 @@ unsigned int tempo, ret;
 void setup() {
     Fastwire::setup(400,0);
     Serial.begin(38400);
-    Serial.println("Inicializando");
+    Serial.println("Initializing...");
     
     mympu_open(200);  
     

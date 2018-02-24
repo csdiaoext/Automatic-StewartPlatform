@@ -81,6 +81,12 @@ After installing the dependencies, you just have to set up the `Config.h` inside
 
 Information about how to get the platform values can be found in `Config.h` or in [here](http://www.instructables.com/id/Arduino-controlled-Rotary-Stewart-Platform/?ALLSTEPS).
 
+## What has been changed from the original branch
+
+* Add all the libraries needed in the `libraries` folder.
+* Update the library `Fastwire.h` to be compatible with Arduino newer versions. (Change `WProgram.h` to `Arduino.h` and delete unnecessary definition of PI.)
+* Update `config.h` in the library `StewartPlatform` to suit our own model.
+
 ## License 
 
 The content of this project itself is licensed under the MIT license.
