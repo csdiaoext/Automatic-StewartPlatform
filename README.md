@@ -69,7 +69,7 @@ If you want, you can use the library in a simulator too. We used the thiagohersa
 
 ## Using the whole Project
 
-To use the whole project you will first need to include some Libraries:
+In this branch I have included all the libraries needed. The information below is for reference only:
 * `MPU9250 Library` - It is a library to get the Yaw, Pitch and Roll from an MPU9250 sensor. Can be found in [here](https://github.com/rpicopter/ArduinoMotionSensorExample "MPU9250 Library").
 * `I2Cdev.h` - It is a library used in MPU9250. Can be found in [here](https://github.com/rpicopter/ArduinoMotionSensorExample "I2Cdev Library").
 * `Fastwire.h` - It is a library used in MPU9250. Can be found in [here](  https://github.com/landis/arduino/tree/master/libraries/Fastwire "Fastwire Library").
@@ -77,7 +77,7 @@ To use the whole project you will first need to include some Libraries:
 * `Servo.h` - It is a library to control arduino servos. Can be found on your Arduino IDE.
 * `StewartPlatform.h` - It is a library to perform all the Stewart Platform Control Maths. Can be found in this repository.
 
-After installing the dependencies, you just have to set up the `Config.h` inside the StewartPlatform library to your platform's values. After that, just run `Automatic-RotaryStewartPlatform.ino` on your Arduino.
+You just have to set up the `Config.h` inside the StewartPlatform library to your platform's values. After that, just run `Automatic-RotaryStewartPlatform.ino` on your Arduino.
 
 Information about how to get the platform values can be found in `Config.h` or in [here](http://www.instructables.com/id/Arduino-controlled-Rotary-Stewart-Platform/?ALLSTEPS).
 
